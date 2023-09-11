@@ -1,0 +1,64 @@
+.titulo{
+    /* estilos generales para el título */
+    font-size: 36px;
+    text-align: center;
+    text-shadow: 2px 2px #000000;
+    color: #fab622;
+  }
+.subti{
+     /* estilos generales para el subtítulo */
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 16px;
+    color: #000000;
+  }
+.contenedor{
+    margin: auto;
+    margin-top: 20px;
+    padding: 20px;
+    width: 100%;
+    max-width: 600px;
+    background-color: rgba(255, 255, 255, 0.9);
+    border: 5px solid #e60000;
+    border-radius: 20px;
+    box-sizing: border-box;
+}
+/* estilos p titulos de cuadro contenedor */
+h1{
+    font-family: "Press Start 2P", sans-serif;
+    font-size: 36px;
+    text-align:center;
+    text-shadow: 2px 2px #000000;
+    color: #e60000;
+}
+/* estilos p fuente de cuadro contenedor */
+p{
+    font-family: "Arial", sans-serif;
+    font-size: 20px;
+    text-align: center;
+    margin: 20px 0;
+    color: #333333;
+}
+/* coloco los botones de opciones del contenedor centradas*/
+.opciones{
+    display: flex;
+    justify-content: space-around;
+}
+/* estilos p botones de opciones del contenedor */
+.opciones button{
+    font-family: "Press Start 2P", sans-serif; /* tipo de fuente */
+    font-size: 15px; /*  tamaño de fuente */
+    background-color: #e60000; /* color de fondo del boton:rojo */
+    color: #ffffff; /* color de letras del boton:blanco */
+    border: none; /* elimino los bordes del boton */
+    border-radius: 10px; /*  esquinas redondedas */
+    padding: 8px 10px; /* agrego padding para q haya espacio entre el texto y su cuadro que encierra el boton */
+    text-shadow: 1px 1px #000000; /*  agrego sombra al texto del boton */
+    cursor: pointer; /*  le pongo la manito a los botones*/
+    /* transition: background-color 0.3s ease-in-out; -- noto + diferencia segun navegador*/
+    margin-left: 10px; /* margen izq */
+}
+/* p que me pinte de color blanco cuando apoyo el pulsor */
+.opciones button:hover {
+    background-color: #ffffff; /*  pinto mi boton de color blanco cuando el cursor se apoya en el boton */
+    color: #e60000; /* pongo la fuente de color rojo cuando el cursor se apoya en el boton */
+}
